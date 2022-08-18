@@ -2,6 +2,8 @@
 
 Demonstrates creating a fat jar for a multi-project build.
 
+Code from 3 subprojects is combined into a single fat jar file.
+
 ## Building
 ```bash
 $ ./gradlew build
