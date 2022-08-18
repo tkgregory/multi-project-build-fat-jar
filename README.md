@@ -1,9 +1,12 @@
 Demonstrates creating a fat jar for a multi-project build.
 
-## Running
-
+## Building
 ```bash
-./gradlew build
+$ ./gradlew build
+```
 
-java -jar subproject-a/build/libs/subproject-a.jar
+## Running
+```bash
+$ java -jar subproject-a/build/libs/subproject-a.jar
+I am subproject A I am subproject B I am subproject C
 ````
