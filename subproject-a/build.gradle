@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    implementation project(':subproject-b')
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.tomgregory.SubprojectA'
+    }
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
