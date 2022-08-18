@@ -1,3 +1,5 @@
+[![CI](https://github.com/tkgregory/yousif-issue/actions/workflows/gradle.yml/badge.svg)](https://github.com/tkgregory/yousif-issue/actions/workflows/gradle.yml)
+
 Demonstrates creating a fat jar for a multi-project build.
 
 ## Building
